@@ -1,8 +1,12 @@
 a, h1.roof { color: #554A84; }
 /* taken from the dress in Lovelace's portrait. */
 
-.highlight { background-color: #f9cd04; }
-/* taken from the fan in Lovelace's portrait. */
+.highlight {
+	background-color: #f9cd04;
+	/* taken from the fan in Lovelace's portrait. */
+	padding: 0.5em 1em 0.5em 1em;
+	border: 1px solid #000;
+	}
 
 body { 
 	color: #000000;
@@ -23,3 +27,4 @@ h1.roof {
 p,li { padding: 0; margin: 1.5em 0 0 0; }
 ul { padding: 0; margin: 1.5em 0 0 1em; }
 li { list-style-type: square; }
+dt { font-weight: bold; } 
