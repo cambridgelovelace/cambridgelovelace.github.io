@@ -1,4 +1,4 @@
-a, h1.roof { color: #554A84; }
+a, div.roof { color: #554A84; }
 /* taken from the dress in Lovelace's portrait. */
 
 .highlight {
@@ -13,15 +13,34 @@ body {
 	font-family: 'Georgia', serif;
 	font-size: 1em;
 	padding: 1em 2em 1em 2em;
+	margin: 0;
 	line-height: 1.5;
 }
 
-h1.roof { 
+div.roof { 
 	background-color: #EEEEEE;
-	font-size: 150%;
 	margin: -1em -2em 1em -2em;
 	padding: 0.5em 2em 0.25em 2em;
 	border-bottom: 2px solid #DDDDDD;
+}
+
+div.roof h1 {
+	font-size: 150%;
+	padding: 0;
+	margin: 0;
+}
+div.roof p {
+	padding: 0;
+	margin: 0;
+}
+
+div.rightphoto {
+	float: right;
+	margin-left: 1em;
+}
+
+div.rightphoto img {
+	border: 1px solid #000;
 }
 
 p { padding: 0; margin: 1.5em 0 0 0; }
@@ -29,3 +48,7 @@ li { padding: 0; margin: 0.5em 0 0 0; }
 ul { padding: 0; margin: 1.5em 0 0 1em; }
 li { list-style-type: square; }
 dt { font-weight: bold; } 
+
+blockquote {
+	font-size: smaller;
+}
