@@ -8,6 +8,10 @@ a, div.roof { color: #554A84; }
 	border: 1px solid #000;
 	}
 
+em { 
+	background-color: #f9cd04;
+	}
+
 body { 
 	color: #000000;
 	font-family: 'Georgia', serif;
