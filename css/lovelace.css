@@ -53,6 +53,3 @@ ul { padding: 0; margin: 1.5em 0 0 1em; }
 li { list-style-type: square; }
 dt { font-weight: bold; } 
 
-blockquote {
-	font-size: smaller;
-}
