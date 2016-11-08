@@ -53,3 +53,12 @@ ul { padding: 0; margin: 1.5em 0 0 1em; }
 li { list-style-type: square; }
 dt { font-weight: bold; } 
 
+figure {
+	text-align: center;
+	margin: 1em;
+	padding: 1em;
+}
+figure img.photo {
+	border: 1px solid #000;
+}
+
